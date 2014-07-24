@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDA7F4C9198120AD00D808AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA7F4C8198120AD00D808AC /* Foundation.framework */; };
+		CDA7F4CB198120AD00D808AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA7F4CA198120AD00D808AC /* CoreGraphics.framework */; };
+		CDA7F4CD198120AD00D808AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA7F4CC198120AD00D808AC /* UIKit.framework */; };
+		CDA7F4D3198120AD00D808AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDA7F4D1198120AD00D808AC /* InfoPlist.strings */; };
+		CDA7F4D5198120AD00D808AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA7F4D4198120AD00D808AC /* main.m */; };
+		CDA7F4D9198120AD00D808AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA7F4D8198120AD00D808AC /* AppDelegate.m */; };
+		CDA7F4DC198120AD00D808AC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA7F4DA198120AD00D808AC /* Main_iPhone.storyboard */; };
+		CDA7F4DF198120AD00D808AC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA7F4DD198120AD00D808AC /* Main_iPad.storyboard */; };
+		CDA7F4E2198120AD00D808AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA7F4E1198120AD00D808AC /* ViewController.m */; };
+		CDA7F4E4198120AD00D808AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA7F4E3198120AD00D808AC /* Images.xcassets */; };
+		CDA7F4EB198120AD00D808AC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA7F4EA198120AD00D808AC /* XCTest.framework */; };
+		CDA7F4EC198120AD00D808AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA7F4C8198120AD00D808AC /* Foundation.framework */; };
+		CDA7F4ED198120AD00D808AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA7F4CC198120AD00D808AC /* UIKit.framework */; };
+		CDA7F4F5198120AD00D808AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDA7F4F3198120AD00D808AC /* InfoPlist.strings */; };
+		CDA7F4F7198120AD00D808AC /* SevInformerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA7F4F6198120AD00D808AC /* SevInformerTests.m */; };
+		CDA7F5011981212B00D808AC /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA7F5001981212B00D808AC /* libxml2.2.dylib */; };
+		CDA7F50B1981216800D808AC /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA7F5051981216800D808AC /* TFHpple.m */; };
+		CDA7F50C1981216800D808AC /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA7F5071981216800D808AC /* TFHppleElement.m */; };
+		CDA7F50D1981216800D808AC /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA7F50A1981216800D808AC /* XPathQuery.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDA7F4EE198120AD00D808AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA7F4BD198120AD00D808AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA7F4C4198120AD00D808AC;
+			remoteInfo = SevInformer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDA7F4C5198120AD00D808AC /* SevInformer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevInformer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA7F4C8198120AD00D808AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDA7F4CA198120AD00D808AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDA7F4CC198120AD00D808AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDA7F4D0198120AD00D808AC /* SevInformer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SevInformer-Info.plist"; sourceTree = "<group>"; };
+		CDA7F4D2198120AD00D808AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDA7F4D4198120AD00D808AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDA7F4D6198120AD00D808AC /* SevInformer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SevInformer-Prefix.pch"; sourceTree = "<group>"; };
+		CDA7F4D7198120AD00D808AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDA7F4D8198120AD00D808AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDA7F4DB198120AD00D808AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CDA7F4DE198120AD00D808AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CDA7F4E0198120AD00D808AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDA7F4E1198120AD00D808AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDA7F4E3198120AD00D808AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CDA7F4E9198120AD00D808AC /* SevInformerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevInformerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA7F4EA198120AD00D808AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CDA7F4F2198120AD00D808AC /* SevInformerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SevInformerTests-Info.plist"; sourceTree = "<group>"; };
+		CDA7F4F4198120AD00D808AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDA7F4F6198120AD00D808AC /* SevInformerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SevInformerTests.m; sourceTree = "<group>"; };
+		CDA7F5001981212B00D808AC /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		CDA7F5041981216800D808AC /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		CDA7F5051981216800D808AC /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		CDA7F5061981216800D808AC /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		CDA7F5071981216800D808AC /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		CDA7F5091981216800D808AC /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		CDA7F50A1981216800D808AC /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDA7F4C2198120AD00D808AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA7F5011981212B00D808AC /* libxml2.2.dylib in Frameworks */,
+				CDA7F4CB198120AD00D808AC /* CoreGraphics.framework in Frameworks */,
+				CDA7F4CD198120AD00D808AC /* UIKit.framework in Frameworks */,
+				CDA7F4C9198120AD00D808AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA7F4E6198120AD00D808AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA7F4EB198120AD00D808AC /* XCTest.framework in Frameworks */,
+				CDA7F4ED198120AD00D808AC /* UIKit.framework in Frameworks */,
+				CDA7F4EC198120AD00D808AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDA7F4BC198120AD00D808AC = {
+			isa = PBXGroup;
+			children = (
+				CDA7F4CE198120AD00D808AC /* SevInformer */,
+				CDA7F4F0198120AD00D808AC /* SevInformerTests */,
+				CDA7F4C7198120AD00D808AC /* Frameworks */,
+				CDA7F4C6198120AD00D808AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA7F4C6198120AD00D808AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDA7F4C5198120AD00D808AC /* SevInformer.app */,
+				CDA7F4E9198120AD00D808AC /* SevInformerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA7F4C7198120AD00D808AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDA7F5001981212B00D808AC /* libxml2.2.dylib */,
+				CDA7F4C8198120AD00D808AC /* Foundation.framework */,
+				CDA7F4CA198120AD00D808AC /* CoreGraphics.framework */,
+				CDA7F4CC198120AD00D808AC /* UIKit.framework */,
+				CDA7F4EA198120AD00D808AC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDA7F4CE198120AD00D808AC /* SevInformer */ = {
+			isa = PBXGroup;
+			children = (
+				CDA7F5021981215500D808AC /* Utils */,
+				CDA7F4D7198120AD00D808AC /* AppDelegate.h */,
+				CDA7F4D8198120AD00D808AC /* AppDelegate.m */,
+				CDA7F4DA198120AD00D808AC /* Main_iPhone.storyboard */,
+				CDA7F4DD198120AD00D808AC /* Main_iPad.storyboard */,
+				CDA7F4E0198120AD00D808AC /* ViewController.h */,
+				CDA7F4E1198120AD00D808AC /* ViewController.m */,
+				CDA7F4E3198120AD00D808AC /* Images.xcassets */,
+				CDA7F4CF198120AD00D808AC /* Supporting Files */,
+			);
+			path = SevInformer;
+			sourceTree = "<group>";
+		};
+		CDA7F4CF198120AD00D808AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDA7F4D0198120AD00D808AC /* SevInformer-Info.plist */,
+				CDA7F4D1198120AD00D808AC /* InfoPlist.strings */,
+				CDA7F4D4198120AD00D808AC /* main.m */,
+				CDA7F4D6198120AD00D808AC /* SevInformer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDA7F4F0198120AD00D808AC /* SevInformerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA7F4F6198120AD00D808AC /* SevInformerTests.m */,
+				CDA7F4F1198120AD00D808AC /* Supporting Files */,
+			);
+			path = SevInformerTests;
+			sourceTree = "<group>";
+		};
+		CDA7F4F1198120AD00D808AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDA7F4F2198120AD00D808AC /* SevInformerTests-Info.plist */,
+				CDA7F4F3198120AD00D808AC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDA7F5021981215500D808AC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CDA7F5031981216800D808AC /* Parser */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		CDA7F5031981216800D808AC /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				CDA7F5041981216800D808AC /* TFHpple.h */,
+				CDA7F5051981216800D808AC /* TFHpple.m */,
+				CDA7F5061981216800D808AC /* TFHppleElement.h */,
+				CDA7F5071981216800D808AC /* TFHppleElement.m */,
+				CDA7F5081981216800D808AC /* XPath */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		CDA7F5081981216800D808AC /* XPath */ = {
+			isa = PBXGroup;
+			children = (
+				CDA7F5091981216800D808AC /* XPathQuery.h */,
+				CDA7F50A1981216800D808AC /* XPathQuery.m */,
+			);
+			path = XPath;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDA7F4C4198120AD00D808AC /* SevInformer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA7F4FA198120AD00D808AC /* Build configuration list for PBXNativeTarget "SevInformer" */;
+			buildPhases = (
+				CDA7F4C1198120AD00D808AC /* Sources */,
+				CDA7F4C2198120AD00D808AC /* Frameworks */,
+				CDA7F4C3198120AD00D808AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SevInformer;
+			productName = SevInformer;
+			productReference = CDA7F4C5198120AD00D808AC /* SevInformer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDA7F4E8198120AD00D808AC /* SevInformerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA7F4FD198120AD00D808AC /* Build configuration list for PBXNativeTarget "SevInformerTests" */;
+			buildPhases = (
+				CDA7F4E5198120AD00D808AC /* Sources */,
+				CDA7F4E6198120AD00D808AC /* Frameworks */,
+				CDA7F4E7198120AD00D808AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA7F4EF198120AD00D808AC /* PBXTargetDependency */,
+			);
+			name = SevInformerTests;
+			productName = SevInformerTests;
+			productReference = CDA7F4E9198120AD00D808AC /* SevInformerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDA7F4BD198120AD00D808AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alexei Zhutenkov";
+				TargetAttributes = {
+					CDA7F4E8198120AD00D808AC = {
+						TestTargetID = CDA7F4C4198120AD00D808AC;
+					};
+				};
+			};
+			buildConfigurationList = CDA7F4C0198120AD00D808AC /* Build configuration list for PBXProject "SevInformer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDA7F4BC198120AD00D808AC;
+			productRefGroup = CDA7F4C6198120AD00D808AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDA7F4C4198120AD00D808AC /* SevInformer */,
+				CDA7F4E8198120AD00D808AC /* SevInformerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDA7F4C3198120AD00D808AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA7F4DF198120AD00D808AC /* Main_iPad.storyboard in Resources */,
+				CDA7F4E4198120AD00D808AC /* Images.xcassets in Resources */,
+				CDA7F4DC198120AD00D808AC /* Main_iPhone.storyboard in Resources */,
+				CDA7F4D3198120AD00D808AC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA7F4E7198120AD00D808AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA7F4F5198120AD00D808AC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDA7F4C1198120AD00D808AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA7F4E2198120AD00D808AC /* ViewController.m in Sources */,
+				CDA7F4D9198120AD00D808AC /* AppDelegate.m in Sources */,
+				CDA7F4D5198120AD00D808AC /* main.m in Sources */,
+				CDA7F50B1981216800D808AC /* TFHpple.m in Sources */,
+				CDA7F50D1981216800D808AC /* XPathQuery.m in Sources */,
+				CDA7F50C1981216800D808AC /* TFHppleElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA7F4E5198120AD00D808AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA7F4F7198120AD00D808AC /* SevInformerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDA7F4EF198120AD00D808AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA7F4C4198120AD00D808AC /* SevInformer */;
+			targetProxy = CDA7F4EE198120AD00D808AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDA7F4D1198120AD00D808AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA7F4D2198120AD00D808AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDA7F4DA198120AD00D808AC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA7F4DB198120AD00D808AC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CDA7F4DD198120AD00D808AC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA7F4DE198120AD00D808AC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CDA7F4F3198120AD00D808AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA7F4F4198120AD00D808AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDA7F4F8198120AD00D808AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDA7F4F9198120AD00D808AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDA7F4FB198120AD00D808AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SevInformer/SevInformer-Prefix.pch";
+				INFOPLIST_FILE = "SevInformer/SevInformer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDA7F4FC198120AD00D808AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SevInformer/SevInformer-Prefix.pch";
+				INFOPLIST_FILE = "SevInformer/SevInformer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CDA7F4FE198120AD00D808AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SevInformer.app/SevInformer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SevInformer/SevInformer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SevInformerTests/SevInformerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CDA7F4FF198120AD00D808AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SevInformer.app/SevInformer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SevInformer/SevInformer-Prefix.pch";
+				INFOPLIST_FILE = "SevInformerTests/SevInformerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDA7F4C0198120AD00D808AC /* Build configuration list for PBXProject "SevInformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA7F4F8198120AD00D808AC /* Debug */,
+				CDA7F4F9198120AD00D808AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA7F4FA198120AD00D808AC /* Build configuration list for PBXNativeTarget "SevInformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA7F4FB198120AD00D808AC /* Debug */,
+				CDA7F4FC198120AD00D808AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDA7F4FD198120AD00D808AC /* Build configuration list for PBXNativeTarget "SevInformerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA7F4FE198120AD00D808AC /* Debug */,
+				CDA7F4FF198120AD00D808AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDA7F4BD198120AD00D808AC /* Project object */;
+}
